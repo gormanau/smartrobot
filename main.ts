@@ -1,0 +1,8 @@
+k_Bit.run(DIR.RunForward, 20)
+basic.pause(2000)
+k_Bit.carStop()
+k_Bit.Motor(MotorObs.LeftSide, MotorDir.Forward, 20)
+k_Bit.Motor(MotorObs.RightSide, MotorDir.Back, 20)
+k_Bit.run(DIR.RunForward, 20)
+basic.pause(2000)
+k_Bit.carStop()
